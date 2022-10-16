@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML/CSS Milestones</title>
+    <style>
+      h2#first_h2.blue{color:blue;}
+      section#block_level_text > h2 {
+        background-color: yellow;
+      }
+      table.first_table, th, td {
+        border: 1px solid;
+        color:red;
+      }
+      table.second_table, th, td {
+        border: 1px solid;
+        color:blue;
+      }
+      table.third_table, th, td {
+        border: 1px solid;
+        color:black;
+      }
+      section.border_solid{  border: 3px solid;}
+      section.border_dotted{  border: 10px dotted;}
+    </style>
+  </head>
+  <body>
+    <h1>Basic Tags</h1>
+    <section id="block_level_text">
+    <h2 id="first_h2" class="blue">The block-level text containers</h2>
+    <p>Paragraph</p>
+    <blockquote>
+      blockquote
+    </blockquote>
+    <pre>
+    pre-formatted text
+    </pre>
+    </section>
+    <section id="inline_text">
+    <h2>Inline text styling using the following tags:</h2>
+    <em>em</em>
+    <i>i</i>
+    <strong>strong</strong>
+    <b>b</b>
+    <code>code</code>
+    </section>
+    <section id="other" class="border_solid">
+    <h2>Other:</h2>
+    <a href="https://www.w3schools.com/TAGS/tag_a.asp">The a-tag</a>
+    <br>
+    <img src="../assets/img/fall.jpeg" width="400" height="600">
+    <h1>Header 1</h1>
+    <h2 class="blue">Header 2</h2>
+    <h3>Header 3</h3>
+    </section>
+    <section id="lists" class="border_dotted">
+    <h2>Lists:</h2>
+    <ul>
+      <li><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      </li>
+      <li><img src="../assets/img/fall.jpeg" width="200" height="400"></li>
+      <li><a href="https://www.w3schools.com/TAGS/tag_a.asp">The a-tag</a></li>
+    </ul>
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+    <ol>
+      <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+    </ol>
+    </section>
+    <section id="tables" class="border_solid">
+    <h2>Tables:</h2>
+    <table class="first_table">
+      <tr>
+        <th>Month</th>
+        <th>Year</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>2022</td>
+        <td>$100</td>
+      </tr>
+    </table>
+    <table class="second_table">
+      <tr>
+        <th>Cat</th>
+        <th>Dog</th>
+      </tr>
+      <tr>
+        <td>Yes</td>
+        <td>No</td>
+      </tr>
+    </table>
+    <table class="third_table">
+      <tr>
+        <th>Month</th>
+        <th>Year</th>
+        <th>Savings</th>
+        <th>Salary</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>2022</td>
+        <td>$100</td>
+        <td>$100,000</td>
+      </tr>
+    </table>
+    </section>
+  </body>
+</html>
